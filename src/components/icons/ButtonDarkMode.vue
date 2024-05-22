@@ -1,5 +1,0 @@
-<template>
-
-  <IconMoon></IconMoon>
-
-</template>

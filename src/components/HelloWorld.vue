@@ -1,4 +1,6 @@
 <script setup>
+import ButtonDarkMode from './buttons/ButtonDarkMode.vue';
+
 defineProps({
   msg: {
     type: String,
@@ -14,6 +16,7 @@ defineProps({
     </nav> -->
     <h1 class="text-7xl sm:text-8xl md:text-9xl text-primary dark:text-dprimary"><strong>Matias Escalante</strong></h1>
     <span class="text-3xl sm:text-4xl md:text-5xl text-primary dark:text-dprimary">Fullstack Developer</span>
+    <ButtonDarkMode />
   </header>
 </template>
 
